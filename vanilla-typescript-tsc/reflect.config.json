@@ -1,0 +1,10 @@
+{
+	"metadata": {
+		"encode": false,
+        "include": [
+            "**/src/**"
+        ]
+	},
+	"devMode": true,
+	"logLevel": "Info"
+}
