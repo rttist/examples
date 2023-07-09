@@ -7,12 +7,12 @@
     "author": "Roman Jámbor",
     "license": "MIT",
     "devDependencies": {
-        "tst-reflect-transformer": "^1.0.0-alpha.7",
+        "tst-reflect-transformer": "1.0.0-alpha.10",
         "ttypescript": "^1.5.15",
-        "typescript": "^4.9.4"
+        "typescript": "^4.9.5"
     },
     "dependencies": {
         "hyper-express": "^6.5.5",
-        "rttist": "^1.0.0-alpha.6"
+        "rttist": "^1.0.0-alpha.7"
     }
 }
