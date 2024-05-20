@@ -1,7 +1,7 @@
 import { rttistPlugin } from "vite-plugin-rttist"; // < 1. Import the plugin
 
 import { defineConfig, UserConfig } from "vite";
-import { join } from "path";
+import { join } from "node:path";
 import solid from "vite-plugin-solid";
 import packageJson from "./package.json";
 
