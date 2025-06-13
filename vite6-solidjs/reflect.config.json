@@ -1,0 +1,12 @@
+{
+	"$schema": "https://rttist.org/schema.json",
+	"metadata": {
+		"include": [
+			"src/**/*.ts",
+			"src/**/*.tsx"
+		],
+		"encode": false,
+		"exclude": []
+	},
+	"logLevel": "Info"
+}
