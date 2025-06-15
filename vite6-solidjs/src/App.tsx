@@ -2,10 +2,7 @@ import styles from "./App.module.css";
 import { createLogger } from "./infrastructure/logging/logger-factory";
 import logo from "./logo.svg";
 
-type AppCategory = never;
-
-const logger = await createLogger<AppCategory>();
-// const logger = await createLogger<typeof App>(); // typeof App does not work yet so I created a new type AppCategory just to demonstrate the usage
+const logger = await createLogger<typeof App>();
 
 export function App() {
 	logger.log("App component initialized");

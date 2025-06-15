@@ -10,8 +10,8 @@ importers:
   .:
     dependencies:
       rttist:
-        specifier: 1.0.0-rc.3
-        version: 1.0.0-rc.3(postcss@8.5.5)(typescript@5.7.2)
+        specifier: 1.0.0-rc.4
+        version: 1.0.0-rc.4(postcss@8.5.5)(typescript@5.7.2)
       solid-js:
         specifier: ^1.9.5
         version: 1.9.5
@@ -19,9 +19,12 @@ importers:
       '@biomejs/biome':
         specifier: ^1.9.4
         version: 1.9.4
+      '@rttist/ts-loader-wasm':
+        specifier: 0.2.4
+        version: 0.2.4
       '@rttist/typegen':
-        specifier: 0.2.0-rc.2
-        version: 0.2.0-rc.2(deasync@0.1.30)(postcss@8.5.5)
+        specifier: 0.2.0
+        version: 0.2.0(deasync@0.1.30)(postcss@8.5.5)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -29,8 +32,8 @@ importers:
         specifier: ^6.3.5
         version: 6.3.5
       vite-plugin-rttist:
-        specifier: 6.0.0-rc.1
-        version: 6.0.0-rc.1(@rttist/typegen@0.2.0-rc.2(deasync@0.1.30)(postcss@8.5.5))(vite@6.3.5)
+        specifier: 6.0.0
+        version: 6.0.0(@rttist/typegen@0.2.0(deasync@0.1.30)(postcss@8.5.5))(vite@6.3.5)
       vite-plugin-solid:
         specifier: ^2.11.6
         version: 2.11.6(solid-js@1.9.5)(vite@6.3.5)
@@ -616,13 +619,13 @@ packages:
   '@rttist/core@1.0.0':
     resolution: {integrity: sha512-E3xxOUm0r8nU9ZpzuwdIBykW65zsTXKimSj0PWOqfyQHBn7tFsQxOa3GYLGre6aYC8OZlaU0tLeXkBwhCciGqQ==}
 
-  '@rttist/ts-loader-wasm@0.2.2':
-    resolution: {integrity: sha512-P+MX28Ukpn/to9UB/5Tcvn3HSLVTDWRSTgcQ7pd8HHgwGRyp6BB82u3osIjNvTpgdP+aCm64MUnBj4cCmSVJEA==}
-    engines: {node: '>=22.0.0'}
+  '@rttist/ts-loader-wasm@0.2.4':
+    resolution: {integrity: sha512-VQBihQtlqXppTb6/eQSEAeeVO65RPDP6XCWQiA5rBrd8IrtjcoGVOitgO3Spi5BUP6+ZKgVc6aJsgpfVUzYUFQ==}
+    engines: {node: '>=20.0.0'}
 
-  '@rttist/typegen@0.2.0-rc.2':
-    resolution: {integrity: sha512-tg/gxnnjVITNaBsQ+kMHMlm4NaD9nSkxvQ42s1EHuwKeUAPactSedylr7ojEleazPXNgqAlOUyHvSxr9F+EurQ==}
-    engines: {node: '>=22.0.0'}
+  '@rttist/typegen@0.2.0':
+    resolution: {integrity: sha512-XQZr0YdTkZ6kxplmQmI3Jl1e0skUiPDfFygr4FpZGErpAsxeVdiu/Qmkicj6zXc1tU3w27GxaggaVZ1v9H0Ilg==}
+    engines: {node: '>=20.0.0'}
     hasBin: true
 
   '@types/babel__core@7.20.5':
@@ -1165,8 +1168,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rttist@1.0.0-rc.3:
-    resolution: {integrity: sha512-36yaiwA8ZdpVmpvSQNfk/b/dpHVkqcCo1iwk70ctGcFvFBKycsCn9eJkeRKyQPhCHlBkYFTdXt0PkFNMA4eE2g==}
+  rttist@1.0.0-rc.4:
+    resolution: {integrity: sha512-l/JG4Yxrz7R7N2prT8XV1FwxPesHr3+yeletD+hhGkb+Uij0WTccPk8Ea3eGfroNt1gxK3/yzyt8QDGWeKNxBw==}
     engines: {node: '>=16.0.0'}
 
   run-async@2.4.1:
@@ -1344,10 +1347,10 @@ packages:
   validate-html-nesting@1.2.2:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
 
-  vite-plugin-rttist@6.0.0-rc.1:
-    resolution: {integrity: sha512-UWzaQRQaEftdzUKKQCPwumLrQmc6XehDrXiGXEOxksSd8QD83Yn33R3FhdZCKKxirbOkxRmQeNTgQhfKeh0tdw==}
+  vite-plugin-rttist@6.0.0:
+    resolution: {integrity: sha512-K/YqcjifYKLYUQQOrBFO8Mfyg4lC0Ab1DKMx/r9eUC3OzfeDFBPDu4wIFlg8xjIE7xgzwCKNSiwF9tS522nuuQ==}
     peerDependencies:
-      '@rttist/typegen': ^0.2.0-rc.2
+      '@rttist/typegen': ^0.2.0
       vite: '>=6.0.0'
 
   vite-plugin-solid@2.11.6:
@@ -1852,9 +1855,9 @@ snapshots:
 
   '@rttist/core@1.0.0': {}
 
-  '@rttist/ts-loader-wasm@0.2.2': {}
+  '@rttist/ts-loader-wasm@0.2.4': {}
 
-  '@rttist/typegen@0.2.0-rc.2(deasync@0.1.30)(postcss@8.5.5)':
+  '@rttist/typegen@0.2.0(deasync@0.1.30)(postcss@8.5.5)':
     dependencies:
       '@netleaf/extensions-configuration': 0.5.2(deasync@0.1.30)
       '@rttist/core': 1.0.0
@@ -1869,7 +1872,7 @@ snapshots:
       minimatch: 10.0.3
       nanospinner: 1.2.2
       promise-cs: 1.0.2
-      rttist: 1.0.0-rc.3(postcss@8.5.5)(typescript@5.8.3)
+      rttist: 1.0.0-rc.4(postcss@8.5.5)(typescript@5.8.3)
       typescript: 5.8.3
     transitivePeerDependencies:
       - '@microsoft/api-extractor'
@@ -2425,7 +2428,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.43.0
       fsevents: 2.3.3
 
-  rttist@1.0.0-rc.3(postcss@8.5.5)(typescript@5.7.2):
+  rttist@1.0.0-rc.4(postcss@8.5.5)(typescript@5.7.2):
     dependencies:
       '@rttist/core': 1.0.0
       esbuild: 0.18.20
@@ -2440,7 +2443,7 @@ snapshots:
       - typescript
       - yaml
 
-  rttist@1.0.0-rc.3(postcss@8.5.5)(typescript@5.8.3):
+  rttist@1.0.0-rc.4(postcss@8.5.5)(typescript@5.8.3):
     dependencies:
       '@rttist/core': 1.0.0
       esbuild: 0.18.20
@@ -2655,10 +2658,10 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-plugin-rttist@6.0.0-rc.1(@rttist/typegen@0.2.0-rc.2(deasync@0.1.30)(postcss@8.5.5))(vite@6.3.5):
+  vite-plugin-rttist@6.0.0(@rttist/typegen@0.2.0(deasync@0.1.30)(postcss@8.5.5))(vite@6.3.5):
     dependencies:
-      '@rttist/ts-loader-wasm': 0.2.2
-      '@rttist/typegen': 0.2.0-rc.2(deasync@0.1.30)(postcss@8.5.5)
+      '@rttist/ts-loader-wasm': 0.2.4
+      '@rttist/typegen': 0.2.0(deasync@0.1.30)(postcss@8.5.5)
       vite: 6.3.5
 
   vite-plugin-solid@2.11.6(solid-js@1.9.5)(vite@6.3.5):

@@ -12,14 +12,15 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@rttist/typegen": "0.2.0-rc.2",
+		"@rttist/ts-loader-wasm": "0.2.4",
+		"@rttist/typegen": "0.2.0",
 		"typescript": "^5.7.2",
 		"vite": "^6.3.5",
-		"vite-plugin-rttist": "6.0.0-rc.1",
+		"vite-plugin-rttist": "6.0.0",
 		"vite-plugin-solid": "^2.11.6"
 	},
 	"dependencies": {
-		"rttist": "1.0.0-rc.3",
+		"rttist": "1.0.0-rc.4",
 		"solid-js": "^1.9.5"
 	}
 }
